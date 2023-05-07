@@ -1,0 +1,385 @@
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 110%;
+    background-color: black;
+    height: 70px;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.storelogo{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation{
+    list-style: none;
+}
+
+.Navigation li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.Navigation li a{
+    transition: all 0.5s ease-in 0s;
+}
+
+.Navigation li a:hover {
+    color: rgb(0, 210, 218);
+}
+
+.Contactbutton{
+    padding: 9px 25px;
+    background-color: rgb(0, 210, 218);
+    border-radius: 50px;
+    transition: all 0.5s ease-in 0s;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.Contactbutton:hover{
+    background-color: white;
+    color: rgb(0, 210, 218);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+#bannerTitle {
+    background-color: rgb(184, 184, 184);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    padding: 3% 5%;
+    font-family: 'Georama', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    height: 20%;
+    width: 90%;
+    max-width: 100%;
+    z-index: 2;
+}
+
+#shopfooter {
+    position: absolute;
+}
+
+.Footernavigation{
+    display: flex;
+}
+
+.Footernavigation h3{
+    margin: 3%;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-right: 15%;
+    padding-left: 5%;
+}
+
+#fHead{
+    padding-bottom: 5%;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+#fHead::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: rgb(0, 210, 218);
+    height: 2px;
+    box-sizing: border-box;
+    width: 85px;
+}
+
+.row a{
+    list-style: none;
+    font-weight: 300;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+footer li{
+    padding-bottom: 4%;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+ 
+.Footernavigation li a:hover{
+    color: rgb(0, 210, 218);
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+#homePage {
+    background-image: url('images/pexels-shane-aldendorff-1054787.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.shopNowButton a, button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Georama', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.shopNowButton {
+    background-color: rgb(255, 85, 170);
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-top: 22%;
+    margin-bottom: 22%;
+    border-radius: 5px;
+}
+
+.shopNowButton a{
+    display: block;
+    padding: 10px;
+}
+
+.shopNowButton:hover{
+    background-color: rgb(197, 61, 129);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box{
+    background: #fff;
+    min-height: 400px;
+    width: 600px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0px #999,
+    2px 2px 0px #999,
+    3px 3px 0px #999,
+    4px 4px 0px #999,
+    5px 5px 0px #999;
+}
+
+.box h2{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.box p{
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+.Product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-family: arial;
+}
+
+#products {
+    position: relative;
+    padding-top: 8%;
+    z-index: -1;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.Product button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.Product button:hover {
+    opacity: 0.7;
+}
+.accordion {
+    background-color: rgb(255, 85 ,170);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 100%;
+  }
+  .accordion2 {
+    background-color:aqua;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 100%;
+    
+  }
+ol li{
+    list-style: circle;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  #faq {
+    background-color: white;
+  }
+
+  #about {
+    background-color: white;
+  }
+
+  #blankSpace {
+    width: 100%;
+    height: 25%;
+    display: block;
+  }
+
+  form {
+    display: block;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 35%;
+  }
+
+  #submitButtonForm {
+    border: none;
+    background-color: white;
+    margin-bottom: 10%;
+  }
+
+  #email, #name {
+    margin-left: 6%;
+  }
+
+  #shopBody {
+    background-color: white;
+  }
+
+  #formReview {
+    background-color: white;
+    border: #000 solid 2px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #formReview input, label {
+    margin-bottom: 2%;
+  }
+
+  #submitButtonForm {
+    background-color: #000;
+    margin-top: 4%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #submitButtonForm:hover {
+    background-color: #424242;
+    cursor: pointer;
+  }
+
+  #returnButton {
+    font-size: 150%;
+    font-weight: 600;
+  }
+
+  .buyButton {
+    color: black;
+    font-size: 150%;
+    font-weight: 600;
+    text-decoration: none;
+  }
